@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python2
 from optparse import OptionParser
 
 if __name__ == '__main__':
@@ -20,6 +20,7 @@ if __name__ == '__main__':
     if not lst: root.note.create('None')
     else: root.note.load(*lst)
     root.mainloop()
+
 
 
 
